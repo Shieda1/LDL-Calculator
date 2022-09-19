@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LDL Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="lowdensitylipoproteinRadio" name="variables" checked>
+  <label for="lowdensitylipoproteinRadio">Low-density lipoprotein</label>
+
+  <input type="radio" id="totalcholesterolRadio" name="variables">
+  <label for="totalcholesterolRadio">Total cholesterol</label>
+
+  <input type="radio" id="highdensitylipoproteinsRadio" name="variables">
+  <label for="highdensitylipoproteinsRadio">High-density lipoproteins</label>
+
+  <input type="radio" id="triglyceridesRadio" name="variables">
+  <label for="triglyceridesRadio">Triglycerides</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Total cholesterol</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">High-density lipoproteins</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Triglycerides</label>
+  <input type="number" id="v3"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
